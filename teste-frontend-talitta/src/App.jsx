@@ -1,8 +1,7 @@
-export default function App() {
-  return (
-    <>
-      <div>Hello World</div>
-    </>
-  );
+import Rotas from "./routes";
+
+function App() {
+  return <Rotas />;
 }
 
+export default App;
