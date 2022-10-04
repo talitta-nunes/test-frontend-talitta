@@ -6,26 +6,26 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <Center w={"100vw"} h={"100vh"} bgColor={"#adb9e3"}>
+    <Center w={"100vw"} h={"100vh"} bgColor={"#445699"}>
       <VStack w={"80%"}>
         <VStack>
           <Text fontWeight={"bold"} fontSize={"30px"}>
             Percent Simulator
           </Text>
           <Text
-            textColor={"pink.600"}
+            textColor={"white"}
             fontWeight={"bold"}
             textAlign={"center"}
             fontSize={"20px"}
           >
             {" "}
-            Organize suas finanças de forma rápida
+            Calcule o valor da sua antecipação
           </Text>
           <HStack>
             <Button
               onClick={() => navigate("/simulation")}
               w={"80%"}
-              colorScheme={"purple"}
+              colorScheme={"pink"}
             >
               Simular dados
             </Button>

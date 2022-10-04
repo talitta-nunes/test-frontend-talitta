@@ -5,14 +5,14 @@ import {
   Input as ChakraInput,
 } from "@chakra-ui/react";
 
-const Input = ({ register, name, label, errors, ...rest }) => {
+const Input = ({ name, label, errors, ...rest }) => {
   return (
     <FormControl isRequired w={"85%"}>
       <FormLabel textAlign={"start"} color={"black"} fontSize={"13px"}>
         {label}
       </FormLabel>
       <ChakraInput
-        {...register(name)}
+        
         {...rest}
         name={name}
         border={"1px solid blue"}
