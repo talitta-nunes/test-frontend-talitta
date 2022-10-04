@@ -6,10 +6,14 @@ Installing dependencies
 yarn 
 
 Opening the project's folder
+
 cd teste-frontend-talitta
 
 Starting application
+
 yarn dev
+
+
 it will run on http://localhost:5173/
 
 Project Structure
@@ -27,6 +31,8 @@ project
 |  the project core
 |
 |.gitignore
+|
+|
 |index.html
 |package.json
 |vite.config.js
