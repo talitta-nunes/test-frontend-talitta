@@ -2,6 +2,7 @@
 Commands
 
 Installing dependencies
+
 yarn 
 
 Opening the project's folder
@@ -12,8 +13,11 @@ yarn dev
 it will run on http://localhost:5173/
 
 Project Structure
+
 project
 
+|
+|
 |_node_modules/
 |
 |_ public/
